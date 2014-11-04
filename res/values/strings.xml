@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">inthecity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content"></string>
+    <string name="image_view_desc">image of River restaurant</string>
+    <string name="image_button_desc">image of River logo</string>
+    <string name="strip_red_review">Red strip of Review</string>
+    <string name="strip_red_invite">Red strip of Invite</string>
+    <string name="bottom_red_bar">Red bar over four bottons</string>
+    <string name="bottom_reserve">reserve button icon</string>
+    <string name="bottom_ticket">order ticket button icon</string>
+    <string name="bottom_coupon">buy a coupon button icon</string>
+    <string name="legend_colors">the different colors of the markers on the map</string>
+    <string name="bottom_camera">see current photos button icon</string>
+    <string name="temp_restaurant_desc">This is a description of the restaurant. The Culpeper, which sits in a traffic-clogged corner of Tel Aviv, sells itself on one fact over all others, which is its rooftop “farm”. Nico Treguer, described as a “rooftop growing entrepreneur”, has joined forces with Bash Redford of Forza Win, which stages large-scale “ethical” pop-ups, and brought in Sandy Jarvis, former head chef of the much-admired Terroirs. On their Facebook page and menu they bang on about this rooftop “farm” and how they want it to supply all their vegetables “where possible”. Really? I have to ask: why? I put this question to our waiter, who mumbled words like “freshness” and “wholesomeness”. </string>
+    <string name="valium_desc">Valium offers breathtaking views of the Tel Aviv skyline. It is designed to be the ultimate Nightclub, featuring timeless luxurious finishes including Italian Portoro marble and breathtaking amber Venini glass chandeliers. A state of the art sound system is covering the venue`s 2,900 sq. ft. of indoor and outdoor space. The outdoor terrace is a lounge music bar with high tables and beautiful people.</string>
+    <string name="clara_desc">The Best club in Tel Aviv. The open air atmosphere and the grand bar allow a night of unforgettable partying and celebrations, all right near the medeteraninan waters. Sea breeze is the fundemental taste of freedom</string>
+    <string name="dream_exibition_desc">The Dream Exhibition is one of Tel-Aviv most popular clubs. Contemporary, sophisticated and chic, it offers luxurious furniture, state of the art sound system, and an incredible 360 degrees LED screens. All of which transports you to an actual Dream, one that comes true on any given night. You will feel that you have been invited into a Dream and all your senses will be aroused during the Tdifferent nights.</string>
+    <string name="top_map_bar">see current photos button icon</string>
+    <string name="title_activity_legend">LegendActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_button">Search for Event</string>
+    <string name="friends_button">Check Friends</string>
+    <string name="recommendations_button">Get recommendations</string>
+    <string name="flame_button">Babe light my fire</string>
+    <string name="plus_button">Plus</string>
+    <string name="legend_screen">Legend Screen</string>
+    <string name="blue_top_logo">In The City Logo</string>
+    <string name="title_activity_valium">ValiumActivity</string>
+    <string name="title_activity_clara">ClaraActivity</string>
+    <string name="title_activity_dream">DreamActivity</string>
+
+</resources>
