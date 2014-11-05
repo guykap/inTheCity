@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.inthe.inthecity.ValiumActivity" >
+
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/blue_top_logo"
+        android:src="@drawable/blue_top_logo" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/leftRestaurantPadding"
+            android:contentDescription="@string/image_view_desc"
+            android:gravity="center_horizontal"
+            android:src="@drawable/valium_photo" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_button_desc"
+            android:gravity="center_horizontal"
+            android:src="@drawable/valium_logo" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow1" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/strip_red_review"
+            android:src="@drawable/rsz_strip_review" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow2"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/strip_red_invite"
+            android:src="@drawable/rsz_strip_invite" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow9" >
+
+        <ScrollView
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/long_description"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/restaurantDescriptionTextHight"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#AA000000"
+            android:ems="10"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:text="@string/valium_desc"
+            android:textColor="#ffffffff" />
+
+
+
+</ScrollView>
+        
+     </TableRow>       
+        
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TableRow>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="72dp" >
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/bottom_reserve"
+                    android:src="@drawable/rsz_reserve_110" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/bottom_ticket"
+                    android:src="@drawable/rsz_tickets_110" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/bottom_coupon"
+                    android:src="@drawable/rsz_cupons_110" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/bottom_camera"
+                    android:src="@drawable/rsz_camera_110" />
+
+               
+            </TableRow>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
